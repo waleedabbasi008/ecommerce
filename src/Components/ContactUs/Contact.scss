@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#contactForm {
+    background: #eee;
+    margin: auto;
+}
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    background: #fff;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    max-width: 700px;
+    max-height: 800px;
+    padding: 2rem;
+}
+
+.here {
+    color: rgb(90, 90, 181);
+}
+
+form input,
+textarea {
+    width: 100%;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form input {
+    height: 50px;
+    margin-bottom: 1rem;
+
+}

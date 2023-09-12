@@ -1,0 +1,115 @@
+.cart-container {}
+
+.cart-added {
+    background: #cac2c2;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // gap: 3rem;
+    margin-top: 5rem;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 12px 12px 15px #333;
+    transition: all 0.5s ease-in-out;
+}
+
+.cart-added:hover {
+    box-shadow: -12px 12px 15px #333;
+}
+
+.cart-added .image img {
+    width: 250px;
+    height: 250px;
+    aspect-ratio: 4/3;
+    mix-blend-mode: color-burn;
+
+}
+
+.product-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 2rem;
+
+}
+
+.remove-btn {
+    width: 120px;
+    height: 50px;
+}
+
+.continue-shopping {
+    text-decoration: none;
+    color: black;
+}
+
+.continue-shopping:hover {
+    color: green;
+}
+
+.amount {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.cartTotal {
+    width: 50%;
+    border-radius: 15px;
+    background: #F5F5F5;
+    box-shadow: 12px 11px 12px 5px #cac2c2;
+    transition: all 0.5s ease-in-out;
+    margin-top: 3rem;
+}
+
+.cartTotal:hover {
+    box-shadow: -12px 11px 12px 5px #cac2c2;
+}
+
+.cart-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15rem;
+    margin-top: 3rem;
+}
+
+.image img {
+    width: 50%;
+}
+
+.continue-shopping {
+    text-align: center;
+}
+.select-input{
+    width: 25%;
+    text-align: center;
+}
+
+// *********************************************** Responsive ************************************************
+@media screen and (max-width: 900px) {
+    .cart-added {      
+        margin-top: 5rem;
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        box-shadow: 12px 12px 15px #333;
+        transition: all 0.5s ease-in-out;
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .cart-added {      
+        margin-top: 5rem;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        box-shadow: 12px 12px 15px #333;
+        transition: all 0.5s ease-in-out;
+    }
+    .select-input{
+        width: 50%;
+        text-align: center;
+    }
+
+}

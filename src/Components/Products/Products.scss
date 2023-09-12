@@ -1,0 +1,51 @@
+.card {
+    height: 45vh;
+    margin-bottom: 5rem;
+    box-shadow: 5px 5px 15px #333;
+    width: 100%;
+}
+
+.card .image {
+    height: 50%;
+}
+
+.input-search {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.search-input {
+    height: 5vh;
+    margin: auto;
+    width: 25%;
+}
+
+// ##### responsive ###################
+@media screen and (max-width:900px) {
+    .search-input {
+        width: 50%;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .image {
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .search-input {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+
+}

@@ -1,0 +1,15 @@
+.more-about-btn{
+    width: 100%;
+}
+.more-aboutus-btn{
+    margin: auto;
+    width: 25%;
+}
+@media screen and (max-width: 768px) {
+    .more-aboutus-btn{
+        font-size: 1rem;
+        font-weight: normal;
+        width: 50%;
+    }
+    
+}
